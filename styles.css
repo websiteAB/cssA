@@ -1,0 +1,312 @@
+.img{
+  background-image: url(download1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 3900px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: #282828;
+}
+
+.h1text{
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  color: #39ca74;
+  font-family: Hanalei Fill;
+}
+span{
+  color: #fff;
+}
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+li{
+  display: inline-block;
+  padding: 15px 30px;
+  color: #39ca74;
+  opacity: 10;
+}
+a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.2vw;
+}
+a:hover{
+ color: #F0c330;
+ transition: 0.5s;
+}
+
+.txt{
+   padding: 50px;
+   color: #fff;
+}
+body{
+  background-image: url(download1.jpg);
+  color: #fff;
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  font-family: 'Pacifico', cursive;
+}
+.pics{
+  float: left;
+  padding:20px;
+  margin: 0px;
+}
+.tajtext{
+  color: #fff;
+  margin-left: 400px;
+  @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+}
+button{
+  float: right;
+}
+
+.ker{
+  margin-right: 1000px;
+  color: #fff;
+  padding: 3px;
+  font-size: 20px;
+}
+.kera{
+  float: left;
+}
+.hrt{
+  padding: 5px;
+}
+.hrt1{
+  padding: 10px;
+}
+
+.gallery{
+  color: #000;
+  padding: 100px 0;
+  background: #efefef;
+  font-size:20px;
+  text-align: center;
+}
+.galbox img{
+  width: 20%;
+  margin-left: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.galbox img:hover{
+  transform: scale(1.1);
+}
+.galbox h4{
+  display: block;
+  color: #fff;
+  text-shadow: -2px 2px 2px #000;
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.galbox{
+  position: relative;
+  margin-bottom: 30px;
+}
+.booking-btn{
+  width: 120px;
+  padding: 8px 0;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.hrt2{
+  padding: 10px;
+}
+button{
+  float: right;
+}
+
+
+@media (max-width:1129px) {
+
+
+title{
+  text-align: center;
+}
+.tajtext{
+  text-align: center;
+  float: none;
+  margin: auto;
+  color: #000;
+  font-size: 15px;
+}
+.tajtext1{
+  text-align: center;
+  float: none;
+  margin: auto;
+  color: #000;
+  font-size: 80%;
+}
+.pics{
+  position: static;
+  width: 30%;
+  float: none;
+}
+body{
+  text-align: center;
+}
+.img{
+  background-image: url(download1.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 4400px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  filter: blur(13px);
+  -webkit-filter: blur(13px);
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: #282828;
+}
+
+.h1text{
+  position: static;
+  padding: 3px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  color: #39ca74;
+  font-family: Hanalei Fill;
+
+}
+span{
+  color: #fff;
+  font-size: 15px;
+}
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+  opacity: 0.8;
+}
+li{
+  display: inline-block;
+  padding: 15px 30px;
+  color: #39ca74;
+  opacity: 10;
+}
+a{
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.2vw;
+  font-size: 15px;
+}
+a:hover{
+ color: #F0c330;
+ transition: 0.5s;
+}
+
+.txt{
+   padding: 40px;
+   color: #fff;
+}
+.ker{
+  margin-right: 50px;
+  color: #fff;
+  padding: 3px;
+  font-size: 20px;
+}
+.kera{
+  float: left;
+}
+.hrt{
+  padding: 5px;
+}
+.hrt1{
+  padding: 10px;
+}
+
+.gallery{
+  color: #000;
+  padding: 100px 0;
+  background: #efefef;
+}
+.galbox img{
+  width: 20%;
+  margin-left: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+.galbox img:hover{
+  transform: scale(1.1);
+}
+.galbox h4{
+  display: block;
+  color: #fff;
+  text-shadow: -2px 2px 2px #000;
+  text-align: center;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.galbox{
+  position: relative;
+  margin-bottom: 30px;
+}
+.booking-btn{
+  width: 120px;
+  padding: 8px 0;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  background: transparent;
+  color: #fff;
+  margin-top: 20px;
+}
+.footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.hrt2{
+  padding: 10px;
+}
+.tajtext1{
+  text-align: center;
+  float: none;
+  margin: auto;
+  color: #fff;
+  font-size: 100%;
+}
+}
